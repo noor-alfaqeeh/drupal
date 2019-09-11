@@ -1,0 +1,21 @@
++===============================+
+Version 8.1.0
+20 April, 2019
++===============================+
+# Initial version
+
+
++===============================+
+Version 8.x.1.1
+08 May, 2019
++===============================+
+# Fixed minor known bugs.
+# Added styling for book module.
+# Better css files organisation.
+
+
++===============================+
+Version 8.x.1.2
+03 Sep, 2019
++===============================+
+# Minor bugs fixed.

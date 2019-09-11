@@ -1,0 +1,48 @@
+{#
+/**
+ * @file
+ *
+ * Default product template.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - product: The rendered product fields.
+ *   Use 'product' to print them all, or print a subset such as
+ *   'product.title'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ product|without('title') }}
+ *   @endcode
+ * - product_entity: The product entity.
+ * - product_url: The product URL.
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="product-details">
+  <div class="row">
+     <div id="main-image" class="col-sm-8">
+       {{ product.field_image }}
+     </div>
+     <div id="about" class="col-sm-4">
+       {{ product.body }}
+       {{ product.variations }}
+     </div>
+  </div>
+  <div></div>
+  
+  <div class="gallery">
+    {{ product.field_gallery }}
+  </div>
+
+</div>  
+
+{% if page.footer %}
+  {% block footer %}
+    <footer class="footer {{ container }}" role="contentinfo">
+      <p class="text-center">&COPY;ShopItem</p>
+    </footer>
+  {% endblock %}
+{% endif %}
+
+

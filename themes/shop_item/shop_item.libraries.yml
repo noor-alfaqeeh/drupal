@@ -1,0 +1,10 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/jquery.fancybox.css: {}
+  js:
+    js/gallery.js: {}
+    js/jquery.fancybox.js: {}
+  dependencies:
+    - core/jquery

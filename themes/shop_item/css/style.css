@@ -1,0 +1,23 @@
+/**
+ * Place your custom styles here.
+ */
+/**
+ * Place your custom styles here.
+ */
+#main-image {
+  width: 250px;
+}
+
+.gallery {
+  width: 100px;
+  margin-top: 60px;
+}
+
+.Image-gallery-wrapper .image-gallery-content{
+	min-width: 100px;
+
+}
+.Image-gallery-wrapper{
+	display: flex;
+	list-style-type: none;
+}
